@@ -1,6 +1,7 @@
 /* Estilo general del cuerpo de la página */
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    /* AQUÍ ESTÁ EL CAMBIO DE FUENTE */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #ffffff; /* Fondo blanco */
     color: #000000;            /* Texto negro */
     margin: 0;
