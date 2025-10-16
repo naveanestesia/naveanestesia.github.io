@@ -51,3 +51,33 @@ body {
 .footer a {
     color: #555555; /* Un gris para que no destaque tanto */
 }
+
+/* --- ESTILOS NUEVOS PARA LAS PÁGINAS DE CONTENIDO --- */
+
+/* Contenedor para el texto de páginas como "Info" */
+.contenido-pagina {
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente el contenido */
+    font-size: 1.2em;
+    line-height: 1.8; /* Aumenta el espacio entre líneas */
+}
+
+/* Estilo para el botón de volver */
+.boton-volver {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 30px;
+    border: 1px solid #000000; /* Borde negro */
+    color: #000000;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s; /* Animación suave */
+}
+
+/* Efecto al pasar el ratón por encima del botón */
+.boton-volver:hover {
+    background-color: #000000; /* Fondo negro */
+    color: #ffffff;            /* Texto blanco */
+}
